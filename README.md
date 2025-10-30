@@ -4,7 +4,8 @@
 This repository provides an example for implementing the cloud-native "Transactional Outbox" pattern in ABAP Cloud by using the background processing framework (bgPF).
 
 ## Requirements
-Up and running ABAP system with S_DEVELOP authorizations.
+Up and running ABAP system.
+Your user has S_DEVELOP authorizations (in On-Prem) or SAP_BR_DEVELOPER (in Cloud).
 
 ## Download and Installation
 See tutorial https://developers.sap.com/tutorials/abap-install-adt.html for downloading and installing the ABAP Development Tools (ADT) for Eclipse.
