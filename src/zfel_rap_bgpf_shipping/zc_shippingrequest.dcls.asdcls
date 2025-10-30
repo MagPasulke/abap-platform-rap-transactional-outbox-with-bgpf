@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_SHIPPINGREQUEST'
+@MappingRole: true
+define role ZC_SHIPPINGREQUEST {
+  grant select on ZC_SHIPPINGREQUEST
+  where INHERITING CONDITIONS FROM ENTITY ZR_SHIPPINGREQUEST REPLACING { ROOT WITH _BaseEntity };
+}

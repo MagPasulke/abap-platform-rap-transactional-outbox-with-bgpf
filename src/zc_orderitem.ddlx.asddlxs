@@ -1,0 +1,114 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'OrderItemId'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'OrderItemId'
+annotate view ZC_ORDERITEM with
+{
+  @UI.hidden: true
+  @EndUserText.label: 'UUID'
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'UUID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'UUID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  UUID;
+  
+  @UI.hidden: true
+  @EndUserText.label: 'ParentUUID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 20 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'ParentUUID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'ParentUUID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  ParentUUID;
+  
+  @EndUserText.label: 'OrderItemID'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'OrderItemID'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'OrderItemID'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  OrderItemID;
+  
+  @EndUserText.label: 'ProductName'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'ProductName'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'ProductName'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  ProductName;
+  
+  @EndUserText.label: 'Quantity'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Quantity'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Quantity'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Quantity;
+  
+  @EndUserText.label: 'UnitPrice'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'UnitPrice'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'UnitPrice'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  UnitPrice;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 80 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  _BaseEntity;
+}
