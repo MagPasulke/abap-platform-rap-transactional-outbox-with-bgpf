@@ -2,6 +2,7 @@
 
 ## Description
 This repository provides an example for implementing the cloud-native "Transactional Outbox" pattern in ABAP Cloud by using the background processing framework (bgPF).
+See blog post https://community.sap.com/t5/technology-blog-posts-by-sap/cloud-native-with-abap-cloud-the-transactional-outbox-pattern/ba-p/14267118 for details.
 
 ## Requirements
 Up and running ABAP system.
