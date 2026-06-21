@@ -11,6 +11,10 @@ Your user has S_DEVELOP authorizations (in On-Prem) or SAP_BR_DEVELOPER (in Clou
 ## Download and Installation
 See tutorial https://developers.sap.com/tutorials/abap-install-adt.html for downloading and installing the ABAP Development Tools (ADT) for Eclipse.
 
+Sample Installation via https://docs.abapgit.org/
+
+Minimum Release for bgPF 2023 / 758
+
 ## How to obtain support
 [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
  
